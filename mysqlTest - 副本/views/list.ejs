@@ -1,0 +1,19 @@
+<h1>学生信息</h1>
+<!--rows -> table -->
+<table>
+    <tr>
+        <th>学号</th>
+        <th>姓名</th>
+        <th>性别</th>
+        <th>年龄</th>
+    </tr>
+    <% rows.forEach(function(item){%>
+        <tr>
+            <td><%=item.sno%></td>
+            <td><%=item.sname%></td>
+            <td><%=item.ssex%></td>
+            <td><%=item.sage%></td>
+        </tr>
+    
+    <%})%>
+</table>
