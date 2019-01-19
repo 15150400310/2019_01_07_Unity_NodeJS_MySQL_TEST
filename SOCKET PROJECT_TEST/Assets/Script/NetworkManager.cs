@@ -17,6 +17,8 @@ public class NetworkManager : MonoBehaviour {
     public GameObject Login;
     public GameObject Register;
 
+
+
     void Awake()
     {
        if(instance == null)
